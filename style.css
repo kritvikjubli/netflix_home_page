@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-[1.75rem] md:text-[3.125rem] leading-[1.1] font-semibold tracking-wide;
+}
+
+.subtitle {
+  @apply text-[1.125rem] md:text-[1.625rem] font-light; 
+}
+
+.red-btn {
+  @apply bg-[#e50914] py-[6px] mt-3 md:mt-0 px-[10px] md:px-[26px] flex items-center rounded-sm text-base md:text-[1.625rem] font-light;
+}
+
+.gray-border {
+  @apply border-t-[8px] border-[#222];
+}
+
+.list-item-icon {
+  @apply md:w-6 md:h-6 w-5 h-5 text-white fill-current rotate-45;
+}
+
+.list-item-title {
+  @apply md:text-[1.625rem] text-[1.125rem] tracking-wide;
+}
+
+.list-item {
+  @apply flex justify-between w-full bg-[#303030] py-4 md:py-5 md:px-8 px-4 items-center mb-3;
+}
+
+.footer-item {
+  @apply pb-[14px];
+}
+
